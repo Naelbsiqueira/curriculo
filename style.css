@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+
+:root {
+    --cor0:#B0D6E4;
+    --cor1:#91E4FF;
+    --cor2:#68B9EB;
+    --cor3:#5190B8;
+    --cor4:#4F606B;
+    --cor5:#2F546B;
+    --cor6:#000000c0;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+* main > h1,h2,li {
+    padding: 10px;
+}
+    
+
+body{
+    background:var(--cor0);
+}
+header{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: var(--cor6);
+    background-image: linear-gradient( to bottom, var(--cor6),var(--cor3));
+    color:white;
+    text-align: center;    
+    height: 100%;
+    width: 100%;
+    min-height: 130px;
+    margin: 0%;
+    padding-top: 30px;
+     
+}
+header > h2{
+    font-size: 2.5em;
+
+}
+header p{
+    text-align: left;
+}
+nav{
+    background-image: linear-gradient( to bottom, var(--cor3),var(--cor0));
+    padding: 5px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+    columns: 3;
+}
+main{
+    background: white;
+    min-width: 300px;
+    max-width: 900px ;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.589);
+    border-radius: 30px;
+    padding: 20px;
+    list-style-position: inside;
+}
+main > h1 {
+    background-image: linear-gradient(to right,var(--cor0),transparent);
+}
+main strong {
+    font-size: 1.5em;
+    background-image: linear-gradient(to right,var(--cor0),transparent); 
+}
+main p{
+    margin: 10px 0px;
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1.5em;
+}
+aside{
+    background-color: var(--cor5);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    box-shadow: 0px 0px 3px black;
+}
+aside a {
+color: white;
+padding: 10px;
+text-decoration: none;
+font-weight: bold;
+border-radius: 10px;
+transition-duration: 0.5;
+    }
+aside a:hover{
+background-color: var(--cor1);
+color: var(--cor5);
+}
+aside img{
+border-radius: 10px;
+}
+aside ul {
+    columns: 2;
+    color: var(--cor0);
+}
+aside > h2{
+    text-align: center;
+    color: var(--cor1);
+}
+ 
+
+footer{
+    color:var(--cor0);
+    padding: 10px 10px ;
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor5),var(--cor3) );
+    box-shadow: 5px 0px 0px black;
+    border: white;
+}
